@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-
+	//coucou
 	OBSMap := make(map[string]bool)
 	OBSFileName := os.Args[2]
 	OBSFile, err := os.Open(OBSFileName)
